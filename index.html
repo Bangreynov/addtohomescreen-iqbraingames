@@ -3,7 +3,7 @@
 
 <head>
 	<title>Add to home screen IQuTest.com Brain Games</title>
-	<link rel="icon" href="imgs/icon512.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="img/icon512.png" type="image/png" sizes="16x16">
 	<link rel="manifest" href="manifest.json">
 	<style type="text/css">
 		.add-to {
@@ -36,7 +36,7 @@
 	<script type="text/javascript">
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function () {
-				navigator.serviceWorker.register('../pwa/sw.js').then(function (registration) {
+				navigator.serviceWorker.register('../sw.js').then(function (registration) {
 					// Registration was successful
 					console.log('ServiceWorker registration successful with scope: ', registration.scope);
 				}, function (err) {
