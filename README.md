@@ -1,5 +1,5 @@
 How to create add to home screen PWA
 
-Edit manifest.json
-copy button to index / home
-change icons
+1. Edit manifest.json
+2. copy button to index / home
+3. change icons
